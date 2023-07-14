@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "ts-node HashAndReaderGen.ts"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.4.4",
+    "@types/node": "^20.3.3",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "domino": "^2.1.6",
+    "fs": "^0.0.1-security",
+    "jsdom": "^22.1.0",
+    "mozilla-readability": "^0.1.3",
+    "node-fetch": "^3.3.1",
+    "node-readability": "^3.0.0",
+    "parse5": "^7.1.2",
+    "readability-js": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.1",
+    "@types/mozilla-readability": "^0.2.1",
+    "ts-node": "^10.9.1"
+  }
+}
